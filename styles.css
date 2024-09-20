@@ -37,16 +37,23 @@ footer {
   max-width:100%;
 }
 
+.projects ul li {
+  padding-bottom: .5em;
+}
+
 .tiger {
    font-size: 1.5em;
    padding-bottom: 2em;
 }
 
-.bio,
-.contact {
+.bio {
   padding-bottom: 1em;
 }
 
+.contact {
+  padding-bottom: 2em;
+}
+
 .selected-works {
-  padding-bottom: .5em;
+  padding-bottom: .8em;
 }
