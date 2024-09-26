@@ -14,36 +14,51 @@ li, ol, ul {
 
 a {
   text-decoration: none;
+  color: #0000EE;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  padding-bottom: .5em;
+  margin-bottom: 2em;
 }
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: .8em;
+    font-size: .9em;
     color: #333;
     line-height: 1.2;
     padding: 2em;
 }
 
-main,
 header,
 footer {
   width: 30em;
   max-width:100%;
 }
 
+main {
+  width:  90em;
+  max-width: 100%;
+}
+
 .projects ul li {
   padding-bottom: .5em;
 }
 
-.tiger {
-   font-size: 1.5em;
-   padding-bottom: 2em;
+.emoji {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.5em;
+  padding-bottom: 2em;
+}
+
+.randomize-button, .reset-button{
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  background: transparent;
 }
 
 .bio {
